@@ -21,7 +21,7 @@
         android:id="@+id/EditTest_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="문제의 제목을 입력하세요 " />
+        android:text="문제의 제목을 입력 " />
 
     <LinearLayout
         android:layout_marginTop="30dp"
