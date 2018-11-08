@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity=""
+    android:layout_margin="20dp"
+    tools:context="black.kr.hs.mirim.testmanager.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TITTLE"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/EditTest_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문제의 제목을 입력하세요 " />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTest_add"
+            android:layout_width="242dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:scrollbars="vertical"
+            android:cursorVisible="true"
+            android:background="@drawable/border"
+            />
+
+        <Button
+            android:text="사진찍기"
+            android:background="#9dd138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="ANSWER"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/EditTest_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="답을 입력하세요" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9dd138"
+        android:text="문제 등록 하기"/>
+</LinearLayout>
