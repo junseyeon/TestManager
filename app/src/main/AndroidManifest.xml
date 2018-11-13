@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Mission2Activity" />
+        <activity android:name=".Mission2SubActivity"></activity>
     </application>
 
 </manifest>
