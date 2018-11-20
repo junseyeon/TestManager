@@ -16,7 +16,7 @@
         android:visibility="visible"
         app:backgroundTint="#ffffff"
         app:elevation="6dp"
-        app:pressedTranslationZ="12dp"
+
 
         />
     <TextView
