@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TITTLE"
+        android:text="TITTLE!!"
         android:textColor="#000000"
         android:textSize="35sp" />
 
@@ -42,6 +42,7 @@
             />
 
         <Button
+            android:id="@+id/btn_camera"
             android:text="사진찍기"
             android:background="#9dd138"
             android:layout_width="wrap_content"
