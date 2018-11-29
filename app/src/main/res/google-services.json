@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "804289825751",
+    "firebase_url": "https://withminji-67716.firebaseio.com",
+    "project_id": "withminji-67716",
+    "storage_bucket": "withminji-67716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804289825751:android:1f865d72ff6f2a7b",
+        "android_client_info": {
+          "package_name": "black.kr.hs.mirim.testmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804289825751-s90q35jaeocjoauqc2uplu39gije59d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ppJlMSGm6nLyKTQl9LSm8xtrxB6CDt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
