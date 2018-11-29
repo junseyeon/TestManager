@@ -1,32 +1,20 @@
 {
   "project_info": {
-<<<<<<< HEAD
     "project_number": "704971987697",
     "firebase_url": "https://readyfortest-71886.firebaseio.com",
     "project_id": "readyfortest-71886",
     "storage_bucket": "readyfortest-71886.appspot.com"
-=======
-    "project_number": "804289825751",
-    "firebase_url": "https://withminji-67716.firebaseio.com",
-    "project_id": "withminji-67716",
-    "storage_bucket": "withminji-67716.appspot.com"
->>>>>>> origin/master
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
         "mobilesdk_app_id": "1:704971987697:android:1f865d72ff6f2a7b",
-=======
-        "mobilesdk_app_id": "1:804289825751:android:1f865d72ff6f2a7b",
->>>>>>> origin/master
         "android_client_info": {
           "package_name": "black.kr.hs.mirim.testmanager"
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
           "client_id": "704971987697-gp1gsu3pp1mnb8bu06hpgp6gcql65tja.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -36,27 +24,12 @@
         },
         {
           "client_id": "704971987697-ku32m0ljfk2lmuj8s8vomkf7k1kncofi.apps.googleusercontent.com",
-=======
-          "client_id": "804289825751-4qcdn0n58pohc2u3hjtv29cgt9c5i69f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "black.kr.hs.mirim.testmanager",
-            "certificate_hash": "0db5474cc34fc2969df0a674c055a7e24ba1894b"
-          }
-        },
-        {
-          "client_id": "804289825751-s90q35jaeocjoauqc2uplu39gije59d3.apps.googleusercontent.com",
->>>>>>> origin/master
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
           "current_key": "AIzaSyCCsEQHCEWMuEybzn6GfOLbGZr7h-l3HGU"
-=======
-          "current_key": "AIzaSyB-ppJlMSGm6nLyKTQl9LSm8xtrxB6CDt8"
->>>>>>> origin/master
         }
       ],
       "services": {
@@ -67,11 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-<<<<<<< HEAD
               "client_id": "704971987697-ku32m0ljfk2lmuj8s8vomkf7k1kncofi.apps.googleusercontent.com",
-=======
-              "client_id": "804289825751-s90q35jaeocjoauqc2uplu39gije59d3.apps.googleusercontent.com",
->>>>>>> origin/master
               "client_type": 3
             }
           ]
