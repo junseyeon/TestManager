@@ -18,15 +18,20 @@
         android:id="@+id/memo_contents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/memo_title" />
+        android:layout_below="@+id/memo_title"
+        android:layout_marginTop="50dp"/>
     <ImageButton
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="top|right"
-        android:layout_marginBottom="400dp"
-        android:layout_marginRight="15sp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="0sp"
         android:src="@drawable/add"
         android:visibility="visible"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+
+
         />
 </FrameLayout>
