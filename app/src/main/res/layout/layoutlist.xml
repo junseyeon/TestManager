@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/memo_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="나의 메모 목록"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/memo_contents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/memo_title"/>
+
+    <ImageButton
+        android:id="@+id/fadd_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|right"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="0sp"
+        android:src="@drawable/add"
+        android:visibility="visible"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+
+
+        />
+
+</FrameLayout>
