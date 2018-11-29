@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Mission2Activity" />
-        <activity android:name=".Mission2SubActivity"></activity>
+       <activity android:name=".sohee"/>
+        <activity android:name=".b"/>
+        <activity android:name=".a"/>
+        <activity android:name=".AddQuestion"/>
+        <activity android:name=".c"/>
+        <activity android:name=".show"/>
+
     </application>
 
 </manifest>

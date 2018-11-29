@@ -1,6 +1,7 @@
 package black.kr.hs.mirim.testmanager;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -12,72 +13,48 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String TAG = "권한";
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Button btnCamera = findViewById(R.id.btn_camera);
-        btnCamera.setOnClickListener(btnHandler);
-
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.v("액티비티가 종료딜 때 : ","onPuase() 호출");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.v("액티비티가 종료딜 때 : ","onStop() 호출");
-
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.v("액티비티가 종료딜 때 : ","onDestroy() 호출");
-    }
-
-    private boolean grantCameraPermission(){
-        if(Build.VERSION.SDK_INT>=23){
-            if(checkSelfPermission(Manifest.permission.CAMERA)== PackageManager.PERMISSION_GRANTED){
-                Log.v(TAG,"permission is revoked");
-                return true;
-            }else{
-                Log.v(TAG,"permission is revoked");
-                ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CAMERA},1);
-                return false;
+        setContentView(R.layout.home);
+        ImageButton b = (ImageButton)findViewById(R.id.alarm_btn);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        getApplication(),
+                        sohee.class);
+                startActivity(intent);
+                finish();
             }
-        }else{
-            Toast.makeText(this, "Camera Permission is Grant", Toast.LENGTH_SHORT).show();
-            Log.d(TAG,"Camera Permission is Grant");
-            return true;
-        }
-    }
-
-    View.OnClickListener btnHandler = new View.OnClickListener(){
-
-        @Override
-        public void onClick(View v) {
-            Intent intent = null;
-            Uri uri = null;
-
-            if(v.getId()==R.id.btn_camera){
-                    Log.v("미림","카메라");
-                    boolean isGrantCamera = grantCameraPermission();
-                    if(isGrantCamera){
-                        intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                        startActivity(intent);
-                    }
+        });
+        ImageButton b1 = (ImageButton)findViewById(R.id.note_btn);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        getApplication(),
+                        b.class);
+                startActivity(intent);
+                finish();
             }
-        }
-    };
+        });
+        ImageButton b2 = (ImageButton)findViewById(R.id.memo_btn);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        getApplication(),
+                        c.class);
+                startActivity(intent);
+                finish();
 
+            }
+        });
+
+    }
 }
