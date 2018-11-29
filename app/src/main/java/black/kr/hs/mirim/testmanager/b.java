@@ -15,8 +15,8 @@ public class b extends Activity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layoutlist);
-        ImageButton b1 = (ImageButton)findViewById(R.id.fadd_btn);
-        b1.setOnClickListener(new View.OnClickListener() {
+        //ImageButton b1 = (ImageButton)findViewById(R.id.fadd_btn);
+      /*  b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(
@@ -25,6 +25,6 @@ public class b extends Activity {
                 startActivity(intent);
                 finish();
             }
-        });
+        });  */
     }
 }

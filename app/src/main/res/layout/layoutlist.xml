@@ -5,20 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fadd_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|right"
-        android:layout_marginBottom="90dp"
-        android:layout_marginRight="15sp"
-        android:src="@drawable/add"
-        android:visibility="visible"
-        app:backgroundTint="#ffffff"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp"
 
-        />
     <TextView
         android:id="@+id/memo_title"
         android:layout_width="match_parent"
