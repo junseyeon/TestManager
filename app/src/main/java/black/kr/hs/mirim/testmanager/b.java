@@ -27,4 +27,8 @@ public class b extends Activity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }

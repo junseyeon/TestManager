@@ -18,6 +18,7 @@ public class c extends Activity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.olist);
+
 //        ListView b2 = (ListView)findViewById(R.id.memo_contents);
 //        b2.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -40,5 +41,9 @@ public class c extends Activity {
                 finish();
             }
         });
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
